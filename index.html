@@ -1,219 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<head>
-	<meta charset="utf-8">
-	<title>Profile </title>
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-<header>
-	
-					 <nav>
-					 	<div class="nav-brand">
-            <a href="index.html">
-              <img src="img/logo.png" alt="Logo" />
+
+
+<nav>
+<body class="blank" style="overflow-y:hidden">
+  <div id="particles-js"></div>
+  <div class="wrapper">
+    <section class="content" style="margin:0px; padding:0px;">
+     <div class="container">
+      <form action="profile.html">
+        <div class="row">
+          <h2 style="text-align:center">Login </h2>
+          <div class="vl">
+            <span class="vl-innertext">or</span>
+          </div>
+
+          <div class="col">
+            <a href="#" class="fb btn">
+              <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+            </a>
+            <a href="#" class="twitter btn">
+              <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+            </a>
+            <a href="#" class="google btn">
+              <i class="fa fa-google fa-fw"></i> Login with Google+
             </a>
           </div>
-          <div class="menu-icon">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#landing-page">
-                <img
-                  src="img/profile.jpg"
-                  alt="profilepic"
-                  class="profile-pic nav-link"
-                />
-                <span class="caption nav-link">Krishna Prasad</span>
-              </a>
-              </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#services" class="nav-link">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="#projects" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" target="_blank" class="nav-link">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" target="_blank" class="nav-link">
-              <i class="fab fa-instagram"></i>
-              </a>
-              <a href="#" target="_blank" class="nav-link">
-               <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a href="#" target="_blank" class="nav-link">
-               <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-              <!-- <div class="cta">
-              <a href="#" target="_blank" class="btn nav-link">..</a>
-            </div> -->
-          </ul>
-        </nav>
-      </div>
-					 
 
-	</header>
-	 <main>
-      <section id="landing-page" class="landing-page">
-    
-        <div class="container">
-          <div class="main-message">
-            <h2>Krishna Prasad</h2>
-            <h3>Developer</h3>
-            <p>Html . CSS . JavaScript . React </p>
-            <div class="intro-btn">
-              <div class="cta">
-                <a href="#contact" class="btn">Get In Touch</a>
-              </div>
-              <div class="cta">
-                <a href="#projects" class="btn">My Projects</a>
-              </div>
+          <div class="col">
+            <div class="hide-md-lg">
+              <p>Or sign in manually:</p>
             </div>
-            <div>
-              <a href="#about" class="scroll-down">
-                <i class = "fa fa-chevron-down" aria-hidden="true"></i>
-              </a>
-            </div>
+
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password"  placeholder="Password" required >
+           <!--  <input type="checkbox" onclick="myFunction()">Show Password  -->
+            <input type="submit" value="Login">
           </div>
-      </section>
-      <section id="about" class="about">
-      	<div class="container">
-      		<div class="about-img">
-      			<img src="img/profile.jpg" alt="profilepic" class="about-pic">
-      		</div>
-      		<div class="about-text">
-      			<h2>Hello 👋</h2>
-      			<p>First Paragraph Writers write descriptive paragraphs because their purpose is to describe something. Their point is that something is beautiful or disgusting or strangely intriguing. Writers write persuasive and argument paragraphs because their purpose is to persuade or convince someone. Their point is that their reader should see things a particular way and possibly take action on that new way of seeing things. Writers write paragraphs of comparison because the comparison will make their point clear to their readers....</p>
-      			<p>Second ParagraphWriters write descriptive paragraphs because their purpose is to describe something. Their point is that something is beautiful or disgusting or strangely intriguing. Writers write persuasive and argument paragraphs because their purpose is to persuade or convince someone. Their point is that their reader should see things a particular way and possibly take action on that new way of seeing things. Writers write paragraphs of comparison because the comparison will make their point clear to their readers......</p>
-      			<p>Thrid paragraphWriters write descriptive paragraphs because their purpose is to describe something. Their point is that something is beautiful or disgusting or strangely intriguing. Writers write persuasive and argument paragraphs because their purpose is to persuade or convince someone. Their point is that their reader should see things a particular way and possibly take action on that new way of seeing things. Writers write paragraphs of comparison because the comparison will make their point clear to their readers.....</p>
-      		</div>
-      	</div>
-      	<hr>
-      </section>
-      <section id="services" class="services">
-      	<div class="container">
-      		<div class="title-heading">
-      			<h1>Digitalize Your Bussiness</h1>
-      		</div>
-      		<div class="descr">
-      			<p>Want to impress your client with creative website??</p><br/>
-      			<p>Don't you worry I am here for you.</p>
-      	</div>
-      	<div class="service-tiers">
-      		<div class="item-tier webdev">
-      			<i class="fa fa-code" aria-hidden="true"></i>
-      			<h1>Web devlopment</h1>
-      			<p>HTML, CSS, JavaScript, etc.? You name it. I will cover for you..</p>
-      		</div>
-      		<div class="item-tier Responsive">
-      			<i class="fa fa-mobile" aria-hidden="true"></i>
-      			<h1>Responsive Design</h1>
-      			<p>Responsive design is very important in the present world. So let me take care of that for you!!</p>
-      		</div>
-      		<div class="item-tier html">
-      			<i class="fa fa-file-code-o" aria-hidden="true"></i>
-      			<h1>PSD to HTML</h1>
-      			<p>If you already have a design in Photoshop, Invision or any other format, I can convert it from scratch into pixel-perfect HTML/CSS/JS website. </p>
-      		</div>
-      	</div>
-      	<hr>
-      </section>
-      <section id="projects" class="projects">
-      	<div class="container">
-      		<div class="title-heading">
-      			<h1>Projects</h1>
-      		</div>
-      		<div class="descr">
-      			<p>Here are some Projects that are done by me..</p>
-      		</div>
-      		<div class="project-item">
-      			<div class="project-img  has-margin-right">
-      				<img src="./img/sppms.png">
-      			</div>
-      		<div class="project-description">
-      			<p>Describe about your project in here and provide a link of the project</p>
-      		</div>
-      		</div>
-      	</div>
-      	<hr>
-      </section>
-      <section id="contact" class="contact">
-      	<div class="title-heading">
-      	<h1> Get In Touch</h1>
+
+        </div>
+      </form>
+    </div>
+    <div class="bottom-container">
+      <div class="row">
+        <div class="col"  >
+          <a href="#"  class="btn op">Sign up</a>
+        </div>
+        <div class="col">
+          <a href="#"  class="btn op">Forgot password?</a>
+        </div>
       </div>
-      <div class="descr">
-      	<p>If you would love to reach me don't hesitate. Just say 'Hey!' and I'll get back to you ASAP</p>
-      </div>
-      	<div class="container">
-      		<p>
-      			<a href="#">
-      			<i class="fas fa-envelope-open" aria-hidden="true">
-      				Email
-      			</i>
-      		</a>
-      	</p>
-      	<p>
-      			<a href="#">
-      			<i class="fab fa-twitter" aria-hidden="true">
-      				Twitter
-      			</i>
-      		</a>
-      	</p>
-      	<p>
-      			<a href="#">
-      			<i class="fab fa-instagram" aria-hidden="true">
-      				Instagram
-      			</i>
-      		</a>
-      	</p>
-      	<p>
-      			<a href="#">
-      			<i class="fab fa-linkedin-in" aria-hidden="true">
-      				Linkedin In
-      			</i>
-      		</a>
-      	</p>
-      	</div>
-      </section>
-      <footer>
-      	<div class="footer-nav">
-      		<a class="footer-nav-link" href="#landing-page">Home</a>
-      		<a class="footer-nav-link" href="#about">About</a>
-      		<a class="footer-nav-link" href="#services">Services</a>
-      		<a class="footer-nav-link" href="#projects">Projects</a>
-      		<a class="footer-nav-link" href="#contact">Contact</a>
-      	</div>
-      	<div class="footer-coded-by">
-      		<P>
-      		<i class="fas fa-code" aria-hidden="true"></i>
-      		By Krishna Prasad @ 2020
-      	</P>
-      	<p>Bulit with HTML, CSS and JavaScript </p>
-      	</div>
-      </footer>
-    </main>	
-    <script
-      src="https://kit.fontawesome.com/836a943e18.js"
-      crossorigin="anonymous"
-    ></script>
-<script src="index.js"></script>
+    </div>
+    
+    <div class="count-particles"> </div> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+     <!-- <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
+     <script src="particles.js"></script>
+    </section>
+
+
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+ 
+}
+</script>
 </body>
+</nav>
 </html>
