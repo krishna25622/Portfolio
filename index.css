@@ -19,6 +19,12 @@ body {
     transition: margin-left .3s ease-out;
     -webkit-transition: margin-left .3s ease-out;
 }
+
+canvas{ 
+    display: block;
+    vertical-align: bottom;
+}
+
 .container {
   position: relative;
   border-radius: 5px;
