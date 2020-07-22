@@ -1,6 +1,6 @@
 * {box-sizing: border-box}
 body {
-    background: #0000;
+    background: #000;
     font-family: 'poppins',sans-serif;
     color: #13e306;
     font-size:14px;
@@ -24,6 +24,7 @@ canvas{
     display: block;
     vertical-align: bottom;
 }
+
 
 .container {
   position: relative;
